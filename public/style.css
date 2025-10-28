@@ -387,6 +387,7 @@ section {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  margin-bottom: 80px;
 }
 
 .cta-section::before {

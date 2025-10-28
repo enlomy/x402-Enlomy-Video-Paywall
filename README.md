@@ -54,6 +54,9 @@ This project demonstrates how to implement a paywall for video content using the
 2. When a user tries to access the protected endpoint, they are required to make a payment
 3. After successful payment, the user is redirected to `/video-content`, where the premium video content is served
 
+## Demo
+[Demo website](https://x402.enlomy.xyz/)
+
 ## Customizing
 
 - To change the price of the video, modify the `price` parameter in `api/index.js`

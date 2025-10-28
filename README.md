@@ -1,6 +1,6 @@
 # x402 Micropayments
 
-This project demonstrates how to implement a paywall for video content using the [x402 payment protocol](https://www.x402.org/). The web app allows users to pay a small amount of cryptocurrency (USDC) to access a paywalled video.
+This project is a movie streaming platform integrated with x402 for secure and seamless payments. Users can pay and watch movies directly through the x402 payment gateway. The backend handles x402 API interactions, ensuring reliable transaction processing and subscription management using x402 services.
 
 ## Features
 

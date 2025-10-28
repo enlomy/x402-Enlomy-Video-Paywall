@@ -1,13 +1,25 @@
-# x402 Enlomy Video Paywall
+# x402 Micropayments
 
 This project demonstrates how to implement a paywall for video content using the [x402 payment protocol](https://www.x402.org/). The web app allows users to pay a small amount of cryptocurrency (USDC) to access a paywalled video.
 
 ## Features
 
+### Backend
 - Simple Express.js server with x402 payment middleware
 - Paywalled endpoint for accessing premium video content
-- Client-side implementation for making payments
+- Secure payment processing and verification
 - Base Sepolia testnet integration for easy testing
+
+### Frontend
+- **Modern, Professional UI** - Beautiful gradient design with smooth animations
+- **Responsive Landing Page** - Hero section with feature cards and "How It Works" guide
+- **Payment Processing Page** - Real-time status indicators with animated loader
+- **Premium Content Page** - Clean video player interface with payment confirmation
+- **Consistent Navigation** - Navbar with x402 branding and quick links across all pages
+- **Professional Footer** - Social links, quick navigation, and resource links
+- **Font Awesome Icons** - Enhanced visual design throughout the interface
+- **SEO Optimized** - Complete meta tags for social sharing (OpenGraph, Twitter Cards)
+- **Favicon Support** - Custom branding with SVG favicon
 
 ## Prerequisites
 

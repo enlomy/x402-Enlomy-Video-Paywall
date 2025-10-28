@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" href="favicon.ico" />
+    
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
     <!-- HTML Meta Tags -->
-    <title>Enlomy x402 Video Paywall</title>
-    <meta name="description" content="x402 demo website" />
+    <title>x402 Video Paywall | Micropayments for Premium Content</title>
+    <meta name="description" content="Experience the future of content monetization with x402 payment protocol. Access premium video content with secure USDC micropayments." />
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://x402.enlomy.xyz/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Enlomy x402 Video Paywall" />
-    <meta property="og:description" content="x402 demo website" />
+    <meta property="og:title" content="x402 Video Paywall | Micropayments for Premium Content" />
+    <meta property="og:description" content="Experience the future of content monetization with x402 payment protocol. Access premium video content with secure USDC micropayments." />
     <meta
       property="og:image"
       content="https://opengraph.b-cdn.net/production/images/edd10cf7-bd22-4e6e-9422-59b39c840a29.png?token=P1NzADB54gLkWbPquKSrN4g7JZRzpdwqiqHmABPSHEA&height=352&width=500&expires=33297656501"
@@ -20,29 +29,222 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:domain" content="x402.enlomy.xyz" />
     <meta property="twitter:url" content="https://x402.enlomy.xyz/" />
-    <meta name="twitter:title" content="Enlomy x402 Video Paywall" />
-    <meta name="twitter:description" content="x402 demo website" />
+    <meta name="twitter:title" content="x402 Video Paywall | Micropayments for Premium Content" />
+    <meta name="twitter:description" content="Experience the future of content monetization with x402 payment protocol. Access premium video content with secure USDC micropayments." />
     <meta
       name="twitter:image"
       content="https://opengraph.b-cdn.net/production/images/edd10cf7-bd22-4e6e-9422-59b39c840a29.png?token=P1NzADB54gLkWbPquKSrN4g7JZRzpdwqiqHmABPSHEA&height=352&width=500&expires=33297656501"
     />
-
-    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
   </head>
   <body>
-    <header>
-      <h1>x402 Enlomy Video Paywall</h1>
-      <p>
-        Ready to access premium content with
-        <a href="https://www.x402.org/" target="_blank">x402 payment</a>
-        protocol.
-      </p>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <i class="fas fa-lock-open"></i>
+          <span>x402 Paywall</span>
+        </div>
+        <div class="nav-links">
+          <a href="https://www.x402.org/" target="_blank" class="nav-link">
+            <i class="fas fa-info-circle"></i> About x402
+          </a>
+          <a href="https://github.com/enlomy/x402-micropayments" target="_blank" class="nav-link">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-bolt"></i>
+          <span>Powered by x402 Protocol</span>
+        </div>
+        <h1 class="hero-title">
+          Unlock Premium Content with
+          <span class="gradient-text">Micropayments</span>
+        </h1>
+        <p class="hero-description">
+          Experience the future of content monetization. Pay only for what you watch with secure, instant USDC payments on Coinbase's Base network.
+        </p>
+        <div class="hero-cta">
+          <a href="/authenticate" class="cta-button primary">
+            <i class="fas fa-play-circle"></i>
+            Access Premium Video - $0.10 USDC
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <i class="fas fa-bolt"></i>
+            <span>Instant Access</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-shield-alt"></i>
+            <span>Secure Payment</span>
+          </div>
+          <div class="stat-item">
+            <i class="fas fa-coins"></i>
+            <span>Pay Per View</span>
+          </div>
+        </div>
+      </div>
     </header>
 
-    <div class="card">
-      <h3>Premium Video Content</h3>
-      <p>Access our premium video content for just $0.10 in USDC:</p>
-      <a href="/authenticate" class="cta-button">Pay $0.10 to Access Video</a>
-    </div>
+    <!-- Features Section -->
+    <section class="features">
+      <div class="section-header">
+        <h2>Why x402?</h2>
+        <p>The next generation of content monetization</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Lightning Fast</h3>
+          <p>Instant payments with no waiting. Access your content immediately after payment confirmation.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-dollar-sign"></i>
+          </div>
+          <h3>Micropayments</h3>
+          <p>Pay only $0.10 per video. No subscriptions, no commitment, just pay-per-view simplicity.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <h3>Base Network</h3>
+          <p>Built on Coinbase's Base L2 for ultra-low fees and seamless USDC transactions.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <h3>Secure & Private</h3>
+          <p>Your payments are secured by blockchain technology. No credit card required.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Open Source</h3>
+          <p>Built transparently with open-source code. Inspect, fork, and build your own.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Creator-Friendly</h3>
+          <p>Empower creators with direct monetization. No middlemen, no delays.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+      <div class="section-header">
+        <h2>How It Works</h2>
+        <p>Get started in three simple steps</p>
+      </div>
+      
+      <div class="steps-container">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Click to Access</h3>
+            <p>Choose the premium video content you want to watch</p>
+          </div>
+        </div>
+
+        <div class="step-arrow">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Pay with USDC</h3>
+            <p>Complete the secure $0.10 USDC payment via x402 protocol</p>
+          </div>
+        </div>
+
+        <div class="step-arrow">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Enjoy Instantly</h3>
+            <p>Start watching your premium content immediately</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready to Experience Web3 Payments?</h2>
+        <p>Join the future of content monetization with x402</p>
+        <a href="/authenticate" class="cta-button secondary">
+          <i class="fas fa-wallet"></i>
+          Get Started Now
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>x402 Video Paywall</h4>
+          <p>A demonstration of micropayment-powered content access using the x402 protocol on Coinbase Base.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="https://www.x402.org/" target="_blank"><i class="fas fa-chevron-right"></i> x402 Protocol</a></li>
+            <li><a href="https://github.com/enlomy/x402-micropayments" target="_blank"><i class="fas fa-chevron-right"></i> GitHub Repository</a></li>
+            <li><a href="https://www.coinbase.com/" target="_blank"><i class="fas fa-chevron-right"></i> Coinbase</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://github.com/enlomy/x402-micropayments" target="_blank" class="social-link" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://t.me/enlomy" target="_blank" class="social-link" title="Telegram">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://www.x402.org/" target="_blank" class="social-link" title="x402">
+              <i class="fas fa-globe"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Enlomy. Built with <i class="fas fa-heart"></i> for the decentralized web.</p>
+      </div>
+    </footer>
+    
+    <script>
+      // Dynamically update the year
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

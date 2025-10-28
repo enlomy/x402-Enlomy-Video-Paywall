@@ -19,8 +19,8 @@ This project demonstrates how to implement a paywall for video content using the
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/enlomy/x402-Enlomy-Video-Paywall.git
-   cd x402-Enlomy-Video-Paywall
+   git clone https://github.com/enlomy/x402-micropayments.git
+   cd x402-micropayments
    ```
 
 2. Install dependencies:
